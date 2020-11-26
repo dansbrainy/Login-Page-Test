@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <title>My Login Screen</title>
+</head>
+
+<body>
+    <header>
+
+        <h1>Welcome to my simple and sleek page!</h1>
+
+        <svg id="emojiSvg" height="200" width="200">
+
+            <circle cx="100" cy="100" r="75" fill="#FFCE54"/>
+
+            <circle cx="65" cy="100" r="10" fill="black"/>
+
+            <circle cx="135" cy="100" r="10" fill="black"/>
+
+            <path d="M 65, 140 q 37.5, 25 75,0" stroke="red" stroke-width="3" fill-opacity="0"/>
+
+        </svg>
+
+    </header>
+
+    <main>
+        <div id="login" class="screens">
+            <label for="loginForm">Login</label>
+
+            <form name="loginForm" action="./home.html" method="post">
+
+                <input type="email" name="email" id="loginEmail" placeholder="example@email.com" required>
+                <input type="password" name="password" id="loginPassword" placeholder="******************" required>
+                <a href="./home.html"><input type="button" id="loginButton" value="Login"></a><br>
+                <input type="checkbox" name="saveLoginDeatils" id="chkSaveLoginDeatails">Save Details
+            
+                <input type="button" id="cancelButton" value="Cancel">
+                <span class="password">Forgot <a href="#">password?</a></span><br>
+                <span class="register">Don't have account? <a href="#register">Register?</a></span>
+
+            </form> 
+
+        </div>
+
+        <div id="register" class="screens hide">
+
+            <label for="loginForm">Register</label>
+
+            <form name="registerForm" action="" method="post">
+
+                <input type="text" name="firstName" id="firstName" placeholder="First Name" required>
+                <input type="text" name="lastName" id="lastName" placeholder="Last Name" required>
+                <input type="tel" name="tel" id="tel" placeholder="+27 60 00 0000">
+                <input type="text" name="address" id="address" placeholder="Address">
+                <!-- <input type="range" name="" id="" placeholder="range"> -->
+                <input type="email" name="email" id="registerEmail" placeholder="example@email.com" required>
+                <input type="password" name="password" id="registerPassword" placeholder="******************" required>
+                <a href="./home.html"><input type="button" id="registerButton" value="Register"><br></a>
+                
+                <input type="button" id="cancelButton" value="Cancel">
+                <span class="login">Already have an acount? <a href="#login">Login?</a></span>
+
+            </form>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <span>Developed by Daniel Kamanda. 2020</span>
+    </footer>
+</body>
+
+<script src="./main.js"></script>
+</html>

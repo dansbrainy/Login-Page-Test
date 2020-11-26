@@ -1,0 +1,192 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    box-sizing: content-box;
+    margin: auto;
+
+// HOME PAGE AFTER ACTION
+    .shadow-animation {
+        transform: skew(20deg);
+        font-size: 10px;
+        height: 5em;
+        width: 5em;
+        background-color:#FFCE54;
+        color: #333;
+        animation: animationExample 1s ease 0s infinite alternate both;
+        margin-bottom: 15em;
+      }
+      
+    @keyframes animationExample {
+        0% {
+          box-shadow: 0 0 0 0 currentColor, 0 0 0 0 currentColor;
+        }
+      
+        25% {
+          box-shadow: 0 0 0 0 currentColor, 0 0 0 0 currentColor;
+        }
+      
+        50% {
+          box-shadow: 10em 0 0 0 currentColor, 10em 0 0 0 currentColor;
+        }
+      
+        75% {
+          box-shadow: 10em 10em 0 0 currentColor, 10em 0 0 0 currentColor;
+        }
+      
+        100% {
+          box-shadow: 10em 10em 0 0 currentColor, 10em 0 0 0 currentColor;
+        }
+    }
+      
+    .fireworks {
+        font-size: 5px;
+        margin-top: 50px;
+        margin-right: 20em;
+        border-radius: 50%;
+        height: 1em;
+        width: 1em;
+        color: #333;
+        animation: explodeCircles 1s ease 0s infinite normal both;
+      }
+      
+    @keyframes explodeCircles {
+        80% {
+          box-shadow: 20em 0 0 1em currentColor, -20em 0 0 1em currentColor,
+            0 20em 0 1em currentColor, 0 -20em 0 1em currentColor,
+            -14.14em -14.14em 0 1em currentColor, -14.14em 14.14em 0 1em currentColor,
+            14.14em -14.14em 0 1em currentColor, 14.14em 14.14em 0 1em currentColor;
+        }
+      
+        100% {
+          box-shadow: 30em 0 0 -1em currentColor, -30em 0 0 -1em currentColor,
+            0 30em 0 -1em currentColor, 0 -30em 0 -1em currentColor,
+            -21.215em -21.215em 0 -1em currentColor,
+            -21.215em 21.215em 0 -1em currentColor,
+            21.215em -21.215em 0 -1em currentColor,
+            21.215em 21.215em 0 -1em currentColor;
+        }
+    }
+      
+      
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 100px 0 0;
+        width: 90%;
+        margin: 30px auto;
+        max-width: 500px;
+        // z-index: -4;
+    }
+      
+// HOME PAGE END
+
+    body {
+        margin: auto;
+        padding: 30px;
+        
+        .box {
+            width:200px;
+            height:200px;
+            background:
+                linear-gradient(to bottom left,transparent 49.8%,#E0E6E5 50%) top   /100% 35%,
+                linear-gradient(to top    left,transparent 49.8%,#E0E6E5 50%) bottom/100% 35%,
+                linear-gradient(#E0E6E5,#E0E6E5) center/100% 30%;
+                background-repeat:no-repeat;
+        }
+
+        .ox {
+            -webkit-clip-path:polygon(0 0, 100% 35%, 100% 65%, 0% 100%);
+            clip-path:polygon(0 0, 100% 35%, 100% 65%, 0% 100%);
+            width:200px;
+            height:200px;
+            background:#E0E6E5;
+        }
+
+        h1, .screens{
+            margin: auto;
+            text-align: center;
+            padding: 18px;
+        }
+
+        #emojiSvg {
+            margin-left:auto; 
+            margin-right:auto; 
+            display:block;
+        }
+
+        main {
+            padding: 30px;
+        }
+
+        div.screens {
+
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+
+            background-color: lavender;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+            margin: 30px auto;
+            width: 400px;
+
+            // border: 2px solid goldenrod;
+            border-radius: 20px;
+
+            label{
+                font-size: 50px;
+            }
+
+            input{
+                width: 90%;
+                padding: 9px 20px;
+                margin: 12px 3px;
+                
+                display: inline-block;
+                border: 1px solid grey;
+                box-sizing: border-box;
+                border-radius: 8px;
+            }
+
+            #loginButton, #registerButton, #cancelButton {
+                border-width: 2px;
+                // font-weight: bold;
+                border-style: none;
+                font-size: larger;
+                opacity: .9;
+                box-shadow: 0 4px 8px 0 rgba(50, 159, 223, 0.4), 0 6px 20px 0 rgba(6, 121, 141, 0.4);
+            }
+
+            #loginButton, #registerButton {
+                color: whitesmoke;
+                background-color: #4CAF50;
+            }
+
+            #cancelButton {
+                color: whitesmoke;
+                background-color: #f44338;
+            }
+
+            form input[type=email], form input[type=password] , form input[type=text], form input[type=tel] {
+                // height: 40px;
+                text-align: center;
+                border-radius: 8px;
+                border-top-style: none;
+                border-left: none;
+                border-right: none;
+           }
+
+           form input[type=checkbox] {
+               border-style: none;
+               padding-block-start: round($number: 0);
+           }
+
+        }
+
+        div.hide {
+            display: none;
+        }
+        
+    }
+
+    
+}
