@@ -7,7 +7,7 @@
     
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    
+    <!-- <script src="./main.js"></script> -->
     <title>My Login Screen</title>
 </head>
 
@@ -34,7 +34,7 @@
         <div id="login" class="screens">
             <label for="loginForm">Login</label>
 
-            <form name="loginForm" action="./home.html" method="post">
+            <form name="loginForm" action="(register)" method="post">
 
                 <input type="email" name="email" id="loginEmail" placeholder="example@email.com" required>
                 <input type="password" name="password" id="loginPassword" placeholder="******************" required>
@@ -43,7 +43,7 @@
             
                 <input type="button" id="cancelButton" value="Cancel">
                 <span class="password">Forgot <a href="#">password?</a></span><br>
-                <span class="register">Don't have account? <a href="#register">Register?</a></span>
+                <span class="register">Don't have account? <a href="#" onclick="register()">Register?</a></span>
 
             </form> 
 
@@ -65,7 +65,7 @@
                 <a href="./home.html"><input type="button" id="registerButton" value="Register"><br></a>
                 
                 <input type="button" id="cancelButton" value="Cancel">
-                <span class="login">Already have an acount? <a href="#login">Login?</a></span>
+                <span class="login">Already have an acount? <a href="#" onclick="login()">Login?</a></span>
 
             </form>
 
@@ -78,5 +78,20 @@
     </footer>
 </body>
 
-<script src="./main.js"></script>
+<script>
+
+    var x = document.getElementById("register")
+    var y = document.getElementById("login")
+    function register() {
+        x.classList.remove("hide")
+        y.classList.add("hide")
+    }
+
+    function login() {
+        x.classList.add("hide")
+        y.classList.remove("hide")
+    }
+
+</script>
+
 </html>
