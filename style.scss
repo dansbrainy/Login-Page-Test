@@ -1,7 +1,9 @@
+
 * {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: content-box;
     margin: auto;
+    // background-color: #001f3f;
 
 // HOME PAGE AFTER ACTION
     .shadow-animation {
@@ -66,7 +68,6 @@
         }
     }
       
-      
     .container {
         display: flex;
         justify-content: space-between;
@@ -82,29 +83,28 @@
     body {
         margin: auto;
         padding: 30px;
-        
-        .box {
-            width:200px;
-            height:200px;
-            background:
-                linear-gradient(to bottom left,transparent 49.8%,#E0E6E5 50%) top   /100% 35%,
-                linear-gradient(to top    left,transparent 49.8%,#E0E6E5 50%) bottom/100% 35%,
-                linear-gradient(#E0E6E5,#E0E6E5) center/100% 30%;
-                background-repeat:no-repeat;
-        }
 
-        .ox {
-            -webkit-clip-path:polygon(0 0, 100% 35%, 100% 65%, 0% 100%);
-            clip-path:polygon(0 0, 100% 35%, 100% 65%, 0% 100%);
-            width:200px;
-            height:200px;
-            background:#E0E6E5;
+        background: linear-gradient(-50deg,lavender, #001f3f, #2f5479, #72b1bd);
+        background-size: 400% 400%;
+        animation: gradient 20s ease infinite;
+
+        header {
+            // background-color: lavender;
+            border-top-style: none;
+            border-bottom: 1px solid gray;
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
         }
 
         h1, .screens{
             margin: auto;
             text-align: center;
             padding: 18px;
+        }
+
+        h1 {
+            color: #FFCE54;
+            animation: color 20s ease infinite;
         }
 
         #emojiSvg {
@@ -127,7 +127,7 @@
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
             margin: 30px auto;
-            width: 400px;
+            width: 30%;
 
             // border: 2px solid goldenrod;
             border-radius: 20px;
@@ -182,11 +182,118 @@
 
         }
 
+        footer {
+            background-color: lavender;
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            opacity: .8;
+            padding-left: 8px;
+        }
+
         div.hide {
             display: none;
         }
         
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            48% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        @keyframes color {
+
+            0% {
+                color: lavender;
+            }
+
+            48% {
+                color: #FFCE54;
+            }
+
+            100% {
+                color: lavender;
+            }
+        }
+
     }
 
-    
+    @media (min-width: 200px) and (max-width: 480px) {
+        
+        *, ::after, ::before {
+            box-sizing: border-box;  
+        }
+
+        body {
+
+            margin: auto;
+            align-items: center;
+            width: 100%;
+
+
+            header {
+
+                align-items: center;
+
+                h1 {
+                    text-align: center;
+                    font-size: 28px;
+                    margin: 0;
+                }
+
+                #emojiSvg {
+                    display: none;
+                }
+
+            }
+
+            main {
+                width: auto;
+                padding: 20px 0;
+                margin: 0;
+
+                div.container {
+                    align-items: center;
+                    padding: 70px 0;
+                    margin: 10px;
+                }
+
+                div.screens {
+                    // padding: 0;
+                    margin: 0;
+                    width: 100%;
+                    
+                    font-size: 15px;
+
+                    label {
+                        font-size: 28px;
+                    }
+
+                    input {
+                        // box-sizing: none;
+                        padding: 6px 0px;
+                    }
+                }
+
+            }
+
+            footer {
+                text-align: center;
+                width: 100%;
+                font-size: 14px;
+            }
+            
+        }
+        
+    }
+
 }
