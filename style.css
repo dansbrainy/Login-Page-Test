@@ -78,55 +78,23 @@
 
 @-webkit-keyframes explodeCircles {
   80% {
-    -webkit-box-shadow: 20em 0 0 1em currentColor, -20em 0 0 1em currentColor,
- 0 20em 0 1em currentColor, 0 -20em 0 1em currentColor,
- -14.14em -14.14em 0 1em currentColor, -14.14em 14.14em 0 1em currentColor,
- 14.14em -14.14em 0 1em currentColor, 14.14em 14.14em 0 1em currentColor;
-            box-shadow: 20em 0 0 1em currentColor, -20em 0 0 1em currentColor,
- 0 20em 0 1em currentColor, 0 -20em 0 1em currentColor,
- -14.14em -14.14em 0 1em currentColor, -14.14em 14.14em 0 1em currentColor,
- 14.14em -14.14em 0 1em currentColor, 14.14em 14.14em 0 1em currentColor;
+    -webkit-box-shadow: 20em 0 0 1em currentColor, -20em 0 0 1em currentColor, 0 20em 0 1em currentColor, 0 -20em 0 1em currentColor, -14.14em -14.14em 0 1em currentColor, -14.14em 14.14em 0 1em currentColor, 14.14em -14.14em 0 1em currentColor, 14.14em 14.14em 0 1em currentColor;
+            box-shadow: 20em 0 0 1em currentColor, -20em 0 0 1em currentColor, 0 20em 0 1em currentColor, 0 -20em 0 1em currentColor, -14.14em -14.14em 0 1em currentColor, -14.14em 14.14em 0 1em currentColor, 14.14em -14.14em 0 1em currentColor, 14.14em 14.14em 0 1em currentColor;
   }
   100% {
-    -webkit-box-shadow: 30em 0 0 -1em currentColor, -30em 0 0 -1em currentColor,
- 0 30em 0 -1em currentColor, 0 -30em 0 -1em currentColor,
- -21.215em -21.215em 0 -1em currentColor,
- -21.215em 21.215em 0 -1em currentColor,
- 21.215em -21.215em 0 -1em currentColor,
- 21.215em 21.215em 0 -1em currentColor;
-            box-shadow: 30em 0 0 -1em currentColor, -30em 0 0 -1em currentColor,
- 0 30em 0 -1em currentColor, 0 -30em 0 -1em currentColor,
- -21.215em -21.215em 0 -1em currentColor,
- -21.215em 21.215em 0 -1em currentColor,
- 21.215em -21.215em 0 -1em currentColor,
- 21.215em 21.215em 0 -1em currentColor;
+    -webkit-box-shadow: 30em 0 0 -1em currentColor, -30em 0 0 -1em currentColor, 0 30em 0 -1em currentColor, 0 -30em 0 -1em currentColor, -21.215em -21.215em 0 -1em currentColor, -21.215em 21.215em 0 -1em currentColor, 21.215em -21.215em 0 -1em currentColor, 21.215em 21.215em 0 -1em currentColor;
+            box-shadow: 30em 0 0 -1em currentColor, -30em 0 0 -1em currentColor, 0 30em 0 -1em currentColor, 0 -30em 0 -1em currentColor, -21.215em -21.215em 0 -1em currentColor, -21.215em 21.215em 0 -1em currentColor, 21.215em -21.215em 0 -1em currentColor, 21.215em 21.215em 0 -1em currentColor;
   }
 }
 
 @keyframes explodeCircles {
   80% {
-    -webkit-box-shadow: 20em 0 0 1em currentColor, -20em 0 0 1em currentColor,
- 0 20em 0 1em currentColor, 0 -20em 0 1em currentColor,
- -14.14em -14.14em 0 1em currentColor, -14.14em 14.14em 0 1em currentColor,
- 14.14em -14.14em 0 1em currentColor, 14.14em 14.14em 0 1em currentColor;
-            box-shadow: 20em 0 0 1em currentColor, -20em 0 0 1em currentColor,
- 0 20em 0 1em currentColor, 0 -20em 0 1em currentColor,
- -14.14em -14.14em 0 1em currentColor, -14.14em 14.14em 0 1em currentColor,
- 14.14em -14.14em 0 1em currentColor, 14.14em 14.14em 0 1em currentColor;
+    -webkit-box-shadow: 20em 0 0 1em currentColor, -20em 0 0 1em currentColor, 0 20em 0 1em currentColor, 0 -20em 0 1em currentColor, -14.14em -14.14em 0 1em currentColor, -14.14em 14.14em 0 1em currentColor, 14.14em -14.14em 0 1em currentColor, 14.14em 14.14em 0 1em currentColor;
+            box-shadow: 20em 0 0 1em currentColor, -20em 0 0 1em currentColor, 0 20em 0 1em currentColor, 0 -20em 0 1em currentColor, -14.14em -14.14em 0 1em currentColor, -14.14em 14.14em 0 1em currentColor, 14.14em -14.14em 0 1em currentColor, 14.14em 14.14em 0 1em currentColor;
   }
   100% {
-    -webkit-box-shadow: 30em 0 0 -1em currentColor, -30em 0 0 -1em currentColor,
- 0 30em 0 -1em currentColor, 0 -30em 0 -1em currentColor,
- -21.215em -21.215em 0 -1em currentColor,
- -21.215em 21.215em 0 -1em currentColor,
- 21.215em -21.215em 0 -1em currentColor,
- 21.215em 21.215em 0 -1em currentColor;
-            box-shadow: 30em 0 0 -1em currentColor, -30em 0 0 -1em currentColor,
- 0 30em 0 -1em currentColor, 0 -30em 0 -1em currentColor,
- -21.215em -21.215em 0 -1em currentColor,
- -21.215em 21.215em 0 -1em currentColor,
- 21.215em -21.215em 0 -1em currentColor,
- 21.215em 21.215em 0 -1em currentColor;
+    -webkit-box-shadow: 30em 0 0 -1em currentColor, -30em 0 0 -1em currentColor, 0 30em 0 -1em currentColor, 0 -30em 0 -1em currentColor, -21.215em -21.215em 0 -1em currentColor, -21.215em 21.215em 0 -1em currentColor, 21.215em -21.215em 0 -1em currentColor, 21.215em 21.215em 0 -1em currentColor;
+            box-shadow: 30em 0 0 -1em currentColor, -30em 0 0 -1em currentColor, 0 30em 0 -1em currentColor, 0 -30em 0 -1em currentColor, -21.215em -21.215em 0 -1em currentColor, -21.215em 21.215em 0 -1em currentColor, 21.215em -21.215em 0 -1em currentColor, 21.215em 21.215em 0 -1em currentColor;
   }
 }
 
