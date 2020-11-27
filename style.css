@@ -78,23 +78,55 @@
 
 @-webkit-keyframes explodeCircles {
   80% {
-    -webkit-box-shadow: 20em 0 0 1em currentColor, -20em 0 0 1em currentColor, 0 20em 0 1em currentColor, 0 -20em 0 1em currentColor, -14.14em -14.14em 0 1em currentColor, -14.14em 14.14em 0 1em currentColor, 14.14em -14.14em 0 1em currentColor, 14.14em 14.14em 0 1em currentColor;
-            box-shadow: 20em 0 0 1em currentColor, -20em 0 0 1em currentColor, 0 20em 0 1em currentColor, 0 -20em 0 1em currentColor, -14.14em -14.14em 0 1em currentColor, -14.14em 14.14em 0 1em currentColor, 14.14em -14.14em 0 1em currentColor, 14.14em 14.14em 0 1em currentColor;
+    -webkit-box-shadow: 20em 0 0 1em currentColor, -20em 0 0 1em currentColor,
+ 0 20em 0 1em currentColor, 0 -20em 0 1em currentColor,
+ -14.14em -14.14em 0 1em currentColor, -14.14em 14.14em 0 1em currentColor,
+ 14.14em -14.14em 0 1em currentColor, 14.14em 14.14em 0 1em currentColor;
+            box-shadow: 20em 0 0 1em currentColor, -20em 0 0 1em currentColor,
+ 0 20em 0 1em currentColor, 0 -20em 0 1em currentColor,
+ -14.14em -14.14em 0 1em currentColor, -14.14em 14.14em 0 1em currentColor,
+ 14.14em -14.14em 0 1em currentColor, 14.14em 14.14em 0 1em currentColor;
   }
   100% {
-    -webkit-box-shadow: 30em 0 0 -1em currentColor, -30em 0 0 -1em currentColor, 0 30em 0 -1em currentColor, 0 -30em 0 -1em currentColor, -21.215em -21.215em 0 -1em currentColor, -21.215em 21.215em 0 -1em currentColor, 21.215em -21.215em 0 -1em currentColor, 21.215em 21.215em 0 -1em currentColor;
-            box-shadow: 30em 0 0 -1em currentColor, -30em 0 0 -1em currentColor, 0 30em 0 -1em currentColor, 0 -30em 0 -1em currentColor, -21.215em -21.215em 0 -1em currentColor, -21.215em 21.215em 0 -1em currentColor, 21.215em -21.215em 0 -1em currentColor, 21.215em 21.215em 0 -1em currentColor;
+    -webkit-box-shadow: 30em 0 0 -1em currentColor, -30em 0 0 -1em currentColor,
+ 0 30em 0 -1em currentColor, 0 -30em 0 -1em currentColor,
+ -21.215em -21.215em 0 -1em currentColor,
+ -21.215em 21.215em 0 -1em currentColor,
+ 21.215em -21.215em 0 -1em currentColor,
+ 21.215em 21.215em 0 -1em currentColor;
+            box-shadow: 30em 0 0 -1em currentColor, -30em 0 0 -1em currentColor,
+ 0 30em 0 -1em currentColor, 0 -30em 0 -1em currentColor,
+ -21.215em -21.215em 0 -1em currentColor,
+ -21.215em 21.215em 0 -1em currentColor,
+ 21.215em -21.215em 0 -1em currentColor,
+ 21.215em 21.215em 0 -1em currentColor;
   }
 }
 
 @keyframes explodeCircles {
   80% {
-    -webkit-box-shadow: 20em 0 0 1em currentColor, -20em 0 0 1em currentColor, 0 20em 0 1em currentColor, 0 -20em 0 1em currentColor, -14.14em -14.14em 0 1em currentColor, -14.14em 14.14em 0 1em currentColor, 14.14em -14.14em 0 1em currentColor, 14.14em 14.14em 0 1em currentColor;
-            box-shadow: 20em 0 0 1em currentColor, -20em 0 0 1em currentColor, 0 20em 0 1em currentColor, 0 -20em 0 1em currentColor, -14.14em -14.14em 0 1em currentColor, -14.14em 14.14em 0 1em currentColor, 14.14em -14.14em 0 1em currentColor, 14.14em 14.14em 0 1em currentColor;
+    -webkit-box-shadow: 20em 0 0 1em currentColor, -20em 0 0 1em currentColor,
+ 0 20em 0 1em currentColor, 0 -20em 0 1em currentColor,
+ -14.14em -14.14em 0 1em currentColor, -14.14em 14.14em 0 1em currentColor,
+ 14.14em -14.14em 0 1em currentColor, 14.14em 14.14em 0 1em currentColor;
+            box-shadow: 20em 0 0 1em currentColor, -20em 0 0 1em currentColor,
+ 0 20em 0 1em currentColor, 0 -20em 0 1em currentColor,
+ -14.14em -14.14em 0 1em currentColor, -14.14em 14.14em 0 1em currentColor,
+ 14.14em -14.14em 0 1em currentColor, 14.14em 14.14em 0 1em currentColor;
   }
   100% {
-    -webkit-box-shadow: 30em 0 0 -1em currentColor, -30em 0 0 -1em currentColor, 0 30em 0 -1em currentColor, 0 -30em 0 -1em currentColor, -21.215em -21.215em 0 -1em currentColor, -21.215em 21.215em 0 -1em currentColor, 21.215em -21.215em 0 -1em currentColor, 21.215em 21.215em 0 -1em currentColor;
-            box-shadow: 30em 0 0 -1em currentColor, -30em 0 0 -1em currentColor, 0 30em 0 -1em currentColor, 0 -30em 0 -1em currentColor, -21.215em -21.215em 0 -1em currentColor, -21.215em 21.215em 0 -1em currentColor, 21.215em -21.215em 0 -1em currentColor, 21.215em 21.215em 0 -1em currentColor;
+    -webkit-box-shadow: 30em 0 0 -1em currentColor, -30em 0 0 -1em currentColor,
+ 0 30em 0 -1em currentColor, 0 -30em 0 -1em currentColor,
+ -21.215em -21.215em 0 -1em currentColor,
+ -21.215em 21.215em 0 -1em currentColor,
+ 21.215em -21.215em 0 -1em currentColor,
+ 21.215em 21.215em 0 -1em currentColor;
+            box-shadow: 30em 0 0 -1em currentColor, -30em 0 0 -1em currentColor,
+ 0 30em 0 -1em currentColor, 0 -30em 0 -1em currentColor,
+ -21.215em -21.215em 0 -1em currentColor,
+ -21.215em 21.215em 0 -1em currentColor,
+ 21.215em -21.215em 0 -1em currentColor,
+ 21.215em 21.215em 0 -1em currentColor;
   }
 }
 
@@ -114,28 +146,29 @@
 * body {
   margin: auto;
   padding: 30px;
+  background: linear-gradient(-50deg, lavender, #001f3f, #2f5479, #72b1bd);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 20s ease infinite;
+          animation: gradient 20s ease infinite;
 }
 
-* body .box {
-  width: 200px;
-  height: 200px;
-  background: -webkit-gradient(linear, right top, left bottom, color-stop(49.8%, transparent), color-stop(50%, #E0E6E5)) top/100% 35%, -webkit-gradient(linear, right bottom, left top, color-stop(49.8%, transparent), color-stop(50%, #E0E6E5)) bottom/100% 35%, -webkit-gradient(linear, left top, left bottom, from(#E0E6E5), to(#E0E6E5)) center/100% 30%;
-  background: linear-gradient(to bottom left, transparent 49.8%, #E0E6E5 50%) top/100% 35%, linear-gradient(to top left, transparent 49.8%, #E0E6E5 50%) bottom/100% 35%, linear-gradient(#E0E6E5, #E0E6E5) center/100% 30%;
-  background-repeat: no-repeat;
-}
-
-* body .ox {
-  -webkit-clip-path: polygon(0 0, 100% 35%, 100% 65%, 0% 100%);
-  clip-path: polygon(0 0, 100% 35%, 100% 65%, 0% 100%);
-  width: 200px;
-  height: 200px;
-  background: #E0E6E5;
+* body header {
+  border-top-style: none;
+  border-bottom: 1px solid gray;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 * body h1, * body .screens {
   margin: auto;
   text-align: center;
   padding: 18px;
+}
+
+* body h1 {
+  color: #FFCE54;
+  -webkit-animation: color 20s ease infinite;
+          animation: color 20s ease infinite;
 }
 
 * body #emojiSvg {
@@ -162,7 +195,7 @@
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 30px auto;
-  width: 400px;
+  width: 30%;
   border-radius: 20px;
 }
 
@@ -214,7 +247,120 @@
           padding-block-start: 0;
 }
 
+* body footer {
+  background-color: lavender;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  opacity: .8;
+  padding-left: 8px;
+}
+
 * body div.hide {
   display: none;
+}
+
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  48% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  48% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-webkit-keyframes color {
+  0% {
+    color: lavender;
+  }
+  48% {
+    color: #FFCE54;
+  }
+  100% {
+    color: lavender;
+  }
+}
+
+@keyframes color {
+  0% {
+    color: lavender;
+  }
+  48% {
+    color: #FFCE54;
+  }
+  100% {
+    color: lavender;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 480px) {
+  * *, * ::after, * ::before {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  * body {
+    margin: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  * body header {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  * body header h1 {
+    text-align: center;
+    font-size: 28px;
+    margin: 0;
+  }
+  * body header #emojiSvg {
+    display: none;
+  }
+  * body main {
+    width: auto;
+    padding: 20px 0;
+    margin: 0;
+  }
+  * body main div.container {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 70px 0;
+    margin: 10px;
+  }
+  * body main div.screens {
+    margin: 0;
+    width: 100%;
+    font-size: 15px;
+  }
+  * body main div.screens label {
+    font-size: 28px;
+  }
+  * body main div.screens input {
+    padding: 6px 0px;
+  }
+  * body footer {
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
